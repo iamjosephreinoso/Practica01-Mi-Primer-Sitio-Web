@@ -1,4 +1,7 @@
 /*Footer Pie de Pagina*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 html{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -40,8 +43,6 @@ body{
     align-items:baseline;
     margin-bottom: 1px;
 }
-
-
 .tituloV{
     align-items: center;
     position: absolute;
@@ -51,6 +52,13 @@ body{
 }
 .navegacion a{
     color: white;
+}
+section article aside input.bcomentarios{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    font-size: larger;
 }
 
 

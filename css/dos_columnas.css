@@ -1,4 +1,7 @@
 @charset "utf-8";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 html {
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -36,5 +39,33 @@ section {
 table{
     display: inline;
 }
-
-  
+/*Nav Horizontal*/
+nav.horizontal ul li {
+    display: table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 10%;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: solid;
+    background-color: black;  
+}
+nav.horizontal li{
+     color: black;
+}
+nav.horizontal {
+    display: table;
+    width: 100%;
+    margin: 2 auto;
+    float: none;
+}
+nav.horizontal ul {
+    display: table-row;
+    margin: 0;
+}
+nav.horizontal ul li:last-of-type {
+    margin-right: 10%;
+}
+nav.horizontal a {
+    color: white;
+} 
