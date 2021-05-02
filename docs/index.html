@@ -4,11 +4,75 @@
     <meta charset="utf-8"/>
     <title>WWE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/estilos.css" rel="stylesheet" />
+    <link href="../css/home.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="buscarh">
+        <input type="text" class="buscar_texto" placeholder="Buscar"/>
+        <img href="" class="lupa" src="../images/img_iconos/lupa.png"/>
+    </div>
     <header>
-        <img src="../images/wwe_logo.jpg">
+        <img src="../images/img_banners/wwe_logo2.jpg">
+        <nav>
+            <ul>
+               <li><a href="../docs/General/about_me.html">About</a></li>
+               <li><a href="../docs/WWE.com/noticias.html">Noticias</a></li> 
+               <li><a href="../docs/Superestrellas/superestrellas.html">Superestrellas</a></li>
+               <li><a href="../docs/Superestrellas/campeones.html">Campeones</a></li>
+               <li><a href="../docs/WWE.com/videos.html">Videos</a></li>
+               <li><a href="../docs/WWE.com/imagenes.html">Imágenes</a></li>
+               <li><a href="../docs/General/contactos.html">Contactos</a></li> 
+               <li><a href="../docs/General/comentarios.html">Comentarios</a></li> 
+            </ul>
+         </nav>
     </header>
+    <h1 class=titulo>Noticias WWE <br/></h1>
+    <section class="noticias">
+        <article>
+            <a title="Resultados de RAW"><img src="../images/img_noticias/SmackDown resultados.jpg"/></a>
+            <h2>Resultados de SmackDown, 30 de abril de 2021: Reigns excluye a Bryan de SmackDown y lo golpea con un Con-Chair-To posterior al partido.</h2>
+            <p>En un clásico enfrentamiento por el título universal, después de que Roman Reigns salió victorioso sobre Daniel Bryan para excluirlo de SmackDown, The Head of the Table desató un brutal asalto posterior al combate contra la superestrella que se marchaba. Además, una interrupción del Comandante Azeez impidió que Big E conquistara al Campeón Intercontinental Apollo Crews y mucho más.</p>
+            <button class="BotonS" onclick="location.href='../docs/WWE.com/noticias.html'">Ver más noticias...</button>
+            <aside>
+                <nav>
+                    Fuente:
+                    <a href="https://www.wwe.com/shows/smackdown/2021-04-30" target="_blank"> WWE Oficial Website</a>
+                </nav>
+            </aside>
+        </article>
+    </section>
+    <h1 class=titulo>Superestrellas de WWE <br/></h1>
+    <section class="superestrellas">
+        <article>
+            <a title="Sasha Banks"><img src="../images/img_superestrellas/sasha_banks.png"/></a>
+            <a title="Randy Orton"><img src="../images/img_superestrellas/randy_orton.png"/> </a>
+            <a title="Io Shirai"><img src="../images/img_superestrellas/io_shirai2.png"></a>
+            <a title="Seth Rollins"><img src="../images/img_superestrellas/seth_rollins.png"/></a>
+            <button class="BotonS" onclick="location.href='../docs/Superestrellas/superestrellas.html'">Ver más superestrellas...</button>
+        </article>
+    </section>
+    
+    <h1 class=titulo>Videos de WWE <br/></h1>
+    <section class="videos">
+        <article>
+            <video play loop controls>
+                <source src="../videos/Roman Reigns' new entrance_ SmackDown, April 30, 2021.mp4" type="video/mp4" />
+            </video><br/>
+            <h2 class="tituloV">Nueva Entrada de Roman Reings: SmackDown 30/04/2021</h2><br/><br/><br/>
+            <a>El Jefe de la Mesa ingresa para su Lucha por el Título Universal contra Daniel Bryan con un tema musical completamente nuevo.</a><br/><br/>
+            <button class="BotonS" onclick="location.href='../docs/WWE.com/videos.html'">Ver más videos...</button>
+            <aside>
+                <nav>
+                    Fuente:
+                    <a href="https://www.youtube.com/watch?v=e2v-xUwA76M" target="_blank"> WWE Youtube</a>
+                </nav>
+            </aside>  
+        </article>
+    </section>
+    <footer>
+        Joseph Nicolás Reinoso Villa - Universidad Politécnica Salesiana <a class="celular" href="tel:+593984709368">(+593) 98 470 9368</a> <a class="mail" href="mailto:jreinosov@est.ups.edu.ec"> jreinosov@est.ups.edu.ec</a> 
+        <br/>&copy; Todos los derechos reservados
+    </footer>
 </body>
-<h1>Hola WWE</h1>
 </html>

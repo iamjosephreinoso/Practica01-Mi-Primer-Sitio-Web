@@ -1,0 +1,53 @@
+/*Footer Pie de Pagina*/
+html{
+    background-color: black;
+}
+footer{
+    width: 100%;
+	clear: left;
+	text-align: center;
+	margin-top: 30px;
+	border-top: 10px solid rgb(5, 5, 5);
+    border-bottom: 30px solid rgb(5, 5, 5);
+    border-radius:30px ;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+.mail {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.celular{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.linea{
+    background-color: black;
+    width: 100%;
+    font-size: larger;
+    align-items:baseline;
+    margin-bottom: 1px;
+}
+
+body{
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+}
+.tituloV{
+    align-items: center;
+    position: absolute;
+}
+.videos{
+    align-content: initial center;
+}
+
+
+
+
