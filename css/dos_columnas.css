@@ -29,6 +29,10 @@ nav {
     float:left; /* Aquí determinas de lado quieres quede esta "columna" */
     border-radius: 10px;
     height: max-content;
+    margin: 5px;
+} 
+nav li{
+    margin: 10px; 
 } 
 section {
     width: 75%;
